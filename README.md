@@ -2,8 +2,8 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Design Patterns](#Design Patterns)
-* [Project Structure](#Project Structure)
+* [Design Patterns](#Design-Patterns)
+* [Project Structure](#Project-Structure)
 
 ## General info
 This project is backend API, which provides project on 
