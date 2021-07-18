@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def index(rquest):
-    return HttpResponse(" Welcome to UnOrthodox - Vinay")
+def index(request):
+    return HttpResponse("Backend env inititated for peek - vinay")
