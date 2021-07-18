@@ -1,24 +1,28 @@
-## About 
-
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Design Patterns](#Design Patterns)
+* [Project Structure](#Project Structure)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This project is backend API, which provides project on 
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* Python 3.8.10
+* Django 3.2.5
+* Django REST framework 3.11
+* SQLite database 3.11.2
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install it locally using pip:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ coming soon...
 ```
+
+## Design Patterns
+* coming soon
+
+## Project Structure
