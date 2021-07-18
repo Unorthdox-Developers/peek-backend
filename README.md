@@ -4,6 +4,7 @@
 * [Setup](#setup)
 * [Design Patterns](#Design-Patterns)
 * [Project Structure](#Project-Structure)
+* [Architecture](#Architecture)
 
 ## General info
 This project is backend API, which provides project on 
@@ -26,3 +27,7 @@ $ coming soon...
 * coming soon
 
 ## Project Structure
+* coming soon
+
+## Architecture
+* coming soon
