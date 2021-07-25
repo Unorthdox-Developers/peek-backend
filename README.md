@@ -27,7 +27,7 @@ $ coming soon...
 * coming soon
 
 ## Project Structure
-* * └── peek-backend
+*   └── peek-backend
     ├── backend
     │   ├── backend
     │   │   ├── asgi.py
