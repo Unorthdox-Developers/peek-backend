@@ -27,23 +27,23 @@ $ coming soon...
 * coming soon
 
 ## Project Structure
-*   └── peek-backend
-    ├── backend
-    │   ├── backend
-    │   │   ├── asgi.py
-    │   │   ├── settings.py
-    │   │   ├── urls.py
-    │   │   └── wsgi.py
-    │   ├── DataEntry
-    │   │   ├── admin.py
-    │   │   ├── apps.py
-    │   │   ├── migrations
-    │   │   ├── models.py
-    │   │   ├── tests.py
-    │   │   ├── urls.py
-    │   │   └── views.py
-    │   ├── db.sqlite3
-    │   └── manage.py
+*   └── peek-backend <br />
+    ├── backend <br />
+    │   ├── backend <br />
+    │   │   ├── asgi.py <br />
+    │   │   ├── settings.py <br />
+    │   │   ├── urls.py <br />
+    │   │   └── wsgi.py <br />
+    │   ├── DataEntry <br />
+    │   │   ├── admin.py <br />
+    │   │   ├── apps.py <br />
+    │   │   ├── migrations <br />
+    │   │   ├── models.py <br />
+    │   │   ├── tests.py <br />
+    │   │   ├── urls.py <br />
+    │   │   └── views.py <br />
+    │   ├── db.sqlite3 <br />
+    │   └── manage.py <br />
     └── README.md
 
 
