@@ -7,7 +7,7 @@
 * [Architecture](#Architecture)
 
 ## General info
-This project is backend API, which provides project on
+Backend API, which provides open source project's stats on Github.
 
 ## Technologies
 Project is created with:
