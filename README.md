@@ -7,15 +7,15 @@
 * [Architecture](#Architecture)
 
 ## General info
-This project is backend API, which provides project on 
-	
+Backend API, which provides open source project's stats on Github.
+
 ## Technologies
 Project is created with:
 * Python 3.8.10
 * Django 3.2.5
 * Django REST framework 3.11
 * SQLite database 3.11.2
-	
+
 ## Setup
 To run this project, install it locally using pip:
 
@@ -27,7 +27,25 @@ $ coming soon...
 * coming soon
 
 ## Project Structure
-* coming soon
+*   └── peek-backend <br />
+    ├── backend <br />
+    │   ├── backend <br />
+    │   │   ├── asgi.py <br />
+    │   │   ├── settings.py <br />
+    │   │   ├── urls.py <br />
+    │   │   └── wsgi.py <br />
+    │   ├── DataEntry <br />
+    │   │   ├── admin.py <br />
+    │   │   ├── apps.py <br />
+    │   │   ├── migrations <br />
+    │   │   ├── models.py <br />
+    │   │   ├── tests.py <br />
+    │   │   ├── urls.py <br />
+    │   │   └── views.py <br />
+    │   ├── db.sqlite3 <br />
+    │   └── manage.py <br />
+    └── README.md
+
 
 ## Architecture
 * coming soon
