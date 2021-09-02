@@ -31,12 +31,14 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'DataEntry.apps.DataentryConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'graphene_django',
 ]
 
 MIDDLEWARE = [
@@ -99,6 +101,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+#Graphene SCHEMA
+GRAPHENE = {
+        "SCHEMA":"backend.schema.schema"
+        }
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
