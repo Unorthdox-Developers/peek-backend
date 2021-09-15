@@ -47,5 +47,5 @@ $ coming soon...
 
 
 ## Architecture
-* ![architecture](https://user-images.githubusercontent.com/34382681/133519773-d7df3138-2391-48ef-ae13-65dc64cc6c70.png)
+ ![architecture](https://user-images.githubusercontent.com/34382681/133519773-d7df3138-2391-48ef-ae13-65dc64cc6c70.png)
 
