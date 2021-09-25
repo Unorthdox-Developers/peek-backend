@@ -1,22 +1,29 @@
 
-"""
+from graphene import (ObjectType,List, JSONString, String,
+                     Field, Schema)
+from graphene_django import DjangoObjectType
+from GithubApiClient.base import query_resolver
 
-Unlike a RESTful API, there is only a single URL from which GraphQL is accessed.
-Requests to this URL are handled by Graphene’s GraphQLView view.
+#GraphQL types
+class SearchType(ObjectType):
+    items = List(JSONString)
+    total_count = String()
 
-"""
+#GraphQL query
+class Query(ObjectType):
+    search = Field(SearchType,name = String(required=True),
+                                    language = String(),
+                                    order = String(),
+                                    sort = String(),
+                                    per_page = String(),
+                                    )
 
-import graphene # django std GraphQl library
-from DataEntry.githubAPI import UserInfo
-from DataEntry.types import *
+    def resolve_search(root,info,**kwargs):
+        #validate field arguments
+        params = {key:value.split('/')[-1].split('.')[0] for key, value in kwargs.items()
+                                                    if len(value.strip(" ")) != 0 }
+        del kwargs
+        items, total_count = query_resolver(info=info,**params)
+        return {'items' : items,'total_count':total_count}
 
-#Query
-class Query(graphene.ObjectType):
-
-    user = graphene.Field(UserType, user_id=graphene.String())
-
-    def resolve_user(root,info,user_id):
-        obj = UserInfo(user_id)
-        return obj.get_json()
-
-schema = graphene.Schema(query=Query)
+schema = Schema(query=Query)

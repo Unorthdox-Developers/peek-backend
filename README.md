@@ -34,18 +34,18 @@ $ coming soon...
     │   │   ├── settings.py <br />
     │   │   ├── urls.py <br />
     │   │   └── wsgi.py <br />
-    │   ├── DataEntry <br />
-    │   │   ├── admin.py <br />
+    │   ├── GithubApiClient <br />
+    │   │   ├── api_callers.py <br />
     │   │   ├── apps.py <br />
-    │   │   ├── migrations <br />
-    │   │   ├── models.py <br />
+    │   │   ├── base.py <br />
+    │   │   ├── cache.py <br />
     │   │   ├── tests.py <br />
-    │   │   ├── urls.py <br />
-    │   │   └── views.py <br />
+    │   │   └── utilities.py <br />
     │   ├── db.sqlite3 <br />
     │   └── manage.py <br />
     └── README.md
 
 
 ## Architecture
-* coming soon
+ ![architecture](https://user-images.githubusercontent.com/34382681/133519773-d7df3138-2391-48ef-ae13-65dc64cc6c70.png)
+
